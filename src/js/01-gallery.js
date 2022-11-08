@@ -2,7 +2,9 @@
 import { galleryItems } from './gallery-items';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+
 // Change code below this line
+
 const containerRef = document.querySelector('.gallery');
 const galleryRef = createGllery(galleryItems);
 containerRef.insertAdjacentHTML('beforeend', galleryRef);
