@@ -22,8 +22,8 @@ function cheksStorage() {
   const saveData = JSON.parse(localStorage.getItem(LOCALSTORAGE_KEY));
 
   if (saveData) {
-    input.value = saveData.email;
-    textarea.value = saveData.message;
+    inputRef.value = saveData.email;
+    textareaRef.value = saveData.message;
   } else {
     inputRef.value = '';
     textareaRef.value = '';
